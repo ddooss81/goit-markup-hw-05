@@ -564,6 +564,11 @@ address {
   border: none;
   border-radius: 4px;
 }
+
+.svg_footer_email {
+  margin-left: 16px;
+  fill: #ffffff;
+}
 /*  */
 /* END Footer modal Window */
 /*  */
