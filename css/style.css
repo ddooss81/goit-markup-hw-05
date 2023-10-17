@@ -524,15 +524,15 @@ address {
   color: #ffffff;
 }
 
-.footer_email {
+.modal_form_email {
   display: flex;
 }
 
-.modal_form_email {
+.email_form_label_enter {
   gap: 24px;
 }
 
-.email_form_label_enter {
+.footer_field_email {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
