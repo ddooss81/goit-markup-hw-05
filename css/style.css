@@ -526,9 +526,6 @@ address {
 
 .modal_form_email {
   display: flex;
-}
-
-.email_form_label_enter {
   gap: 24px;
 }
 
