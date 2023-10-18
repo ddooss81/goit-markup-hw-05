@@ -515,6 +515,9 @@ address {
 }
 
 /* Footer email inter */
+.footer_email {
+  margin-left: 80px;
+}
 .footer_email_para {
   margin-bottom: 16px;
   font-weight: 500;
