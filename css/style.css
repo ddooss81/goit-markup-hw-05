@@ -652,12 +652,17 @@ footer {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal_button:focus,
 .modal_button:hover {
   background-color: #404bbf;
   border: none;
 }
 
-.modal_button:focus {
-  background-color: #404bbf;
-  border: none;
+.exit_svg_cross {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal_button:hover .exit_svg_cross,
+.modal_button:focus .exit_svg_cross {
+  fill: #ffffff;
 }
