@@ -677,3 +677,20 @@ footer {
   color: #2e2f42;
   margin-bottom: 16px;
 }
+
+.modal_form_div {
+  margin-bottom: 8px;
+}
+
+.label_name {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+
+user_name_input {
+  position: relative;
+}
