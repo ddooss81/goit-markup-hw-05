@@ -708,3 +708,16 @@ footer {
 .user_name_input_field:focus {
   border-color: #4d5ae5;
 }
+
+.svg_modal_name {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(-50%);
+}
+
+.user_name_input_field:focus + .svg_modal_name,
+.user_name_input_field:hover + .svg_modal_name {
+  fill: #4d5ae5;
+}
