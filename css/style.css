@@ -772,8 +772,8 @@ footer {
   fill: transparent;
 }
 
-.svg_policy {
-}
+/* .svg_policy {
+} */
 
 .check_box_modal > input:checked + .check_box_policy > .check_box_policy_span {
   background-color: #404bbf;
