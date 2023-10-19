@@ -745,3 +745,7 @@ footer {
 .text_aria_enter:focus {
   border-color: #4d5ae5;
 }
+
+.check_box_modal {
+  margin-bottom: 24px;
+}
