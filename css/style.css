@@ -722,10 +722,13 @@ footer {
   transform: translateY(-50%);
 }
 
-.user_name_input_field:focus + .svg_modal_name,
-.user_name_input_field:hover + .svg_modal_name {
+.user_name_input_field:focus + .svg_modal_name {
   fill: #4d5ae5;
 }
+
+/* .user_name_input_field:hover + .svg_modal_name {
+  fill: #4d5ae5;
+} */
 
 .text_input_modal {
   margin-bottom: 16px;
