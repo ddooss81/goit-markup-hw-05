@@ -613,6 +613,7 @@ footer {
 /* Modal Window */
 
 .modal {
+  pointer-events: none;
   visibility: hidden;
   opacity: 0;
   position: fixed;
@@ -815,4 +816,5 @@ footer {
 .modal.is-open {
   visibility: visible;
   opacity: 1;
+  pointer-events: auto;
 }
